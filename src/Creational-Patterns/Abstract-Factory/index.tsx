@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ThemeComponent from "./abstract-factory/ThemeComponent";
+import ThemeComponent from "./pattern/ThemeComponent";
 
 const AbstractFactoryDesignPattern: React.FC = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
