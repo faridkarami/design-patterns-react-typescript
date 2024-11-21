@@ -3,7 +3,8 @@
 // import FactoryMethodDesignPattern from "./Creational-Patterns/Factory-Method"
 // import PrototypeDesignPattern from "./Creational-Patterns/Prototype"
 // import SingletonDesignPattern from "./Creational-Patterns/Singleton"
-import AdapterDesignPattern from "./Structural-Patterns/Adapter"
+// import AdapterDesignPattern from "./Structural-Patterns/Adapter"
+import BridgeDesignPattern from "./Structural-Patterns/Bridge"
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         {/* <FactoryMethodDesignPattern /> */}
         {/* <PrototypeDesignPattern /> */}
         {/* <SingletonDesignPattern /> */}
-        <AdapterDesignPattern />
+        {/* <AdapterDesignPattern /> */}
+        <BridgeDesignPattern />
       </main>
     </>
   )
