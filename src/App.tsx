@@ -4,7 +4,8 @@
 // import PrototypeDesignPattern from "./Creational-Patterns/Prototype"
 // import SingletonDesignPattern from "./Creational-Patterns/Singleton"
 // import AdapterDesignPattern from "./Structural-Patterns/Adapter"
-import BridgeDesignPattern from "./Structural-Patterns/Bridge"
+// import BridgeDesignPattern from "./Structural-Patterns/Bridge"
+import CompositeDesignPattern from "./Structural-Patterns/Composite"
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         {/* <PrototypeDesignPattern /> */}
         {/* <SingletonDesignPattern /> */}
         {/* <AdapterDesignPattern /> */}
-        <BridgeDesignPattern />
+        {/* <BridgeDesignPattern /> */}
+        <CompositeDesignPattern />
       </main>
     </>
   )
