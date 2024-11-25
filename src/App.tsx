@@ -8,7 +8,8 @@
 // import CompositeDesignPattern from "./Structural-Patterns/Composite"
 // import DecoratorDesignPattern from "./Structural-Patterns/Decorator"
 // import FacadeDesignPattern from "./Structural-Patterns/Facade"
-import FlyweightDesignPattern from "./Structural-Patterns/Flyweight"
+// import FlyweightDesignPattern from "./Structural-Patterns/Flyweight"
+import ProxyDesignPattern from "./Structural-Patterns/Proxy"
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
         {/* <CompositeDesignPattern /> */}
         {/* <DecoratorDesignPattern /> */}
         {/* <FacadeDesignPattern /> */}
-        <FlyweightDesignPattern />
+        {/* <FlyweightDesignPattern /> */}
+        <ProxyDesignPattern />
       </main>
     </>
   )
