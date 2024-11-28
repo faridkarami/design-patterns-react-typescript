@@ -10,7 +10,8 @@
 // import FacadeDesignPattern from "./Structural-Patterns/Facade"
 // import FlyweightDesignPattern from "./Structural-Patterns/Flyweight"
 // import ProxyDesignPattern from "./Structural-Patterns/Proxy"
-import ChainOfResponsibilityDesignPattern from "./Behavioral-Patterns/Chain-Of-Responsibility"
+// import ChainOfResponsibilityDesignPattern from "./Behavioral-Patterns/Chain-Of-Responsibility"
+import CommandDesignPattern from "./Behavioral-Patterns/Command"
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         {/* <FacadeDesignPattern /> */}
         {/* <FlyweightDesignPattern /> */}
         {/* <ProxyDesignPattern /> */}
-        <ChainOfResponsibilityDesignPattern />
+        {/* <ChainOfResponsibilityDesignPattern /> */}
+        <CommandDesignPattern />
       </main>
     </>
   )
