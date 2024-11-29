@@ -11,7 +11,8 @@
 // import FlyweightDesignPattern from "./Structural-Patterns/Flyweight"
 // import ProxyDesignPattern from "./Structural-Patterns/Proxy"
 // import ChainOfResponsibilityDesignPattern from "./Behavioral-Patterns/Chain-Of-Responsibility"
-import CommandDesignPattern from "./Behavioral-Patterns/Command"
+// import CommandDesignPattern from "./Behavioral-Patterns/Command"
+import IteratorDesignPattern from "./Behavioral-Patterns/Iterator"
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
         {/* <FlyweightDesignPattern /> */}
         {/* <ProxyDesignPattern /> */}
         {/* <ChainOfResponsibilityDesignPattern /> */}
-        <CommandDesignPattern />
+        {/* <CommandDesignPattern /> */}
+        <IteratorDesignPattern />
       </main>
     </>
   )
