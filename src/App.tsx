@@ -13,7 +13,9 @@
 // import ChainOfResponsibilityDesignPattern from './Behavioral-Patterns/Chain-Of-Responsibility'
 // import CommandDesignPattern from './Behavioral-Patterns/Command'
 // import IteratorDesignPattern from './Behavioral-Patterns/Iterator'
-import MediatorDesignPattern from './Behavioral-Patterns/Mediator'
+// import MediatorDesignPattern from './Behavioral-Patterns/Mediator'
+
+import MementoDesignPattern from "./Behavioral-Patterns/Memento"
 
 function App() {
   return (
@@ -35,7 +37,8 @@ function App() {
         {/* <ChainOfResponsibilityDesignPattern /> */}
         {/* <CommandDesignPattern /> */}
         {/* <IteratorDesignPattern /> */}
-        <MediatorDesignPattern />
+        {/* <MediatorDesignPattern /> */}
+        <MementoDesignPattern />
       </main>
     </>
   )
