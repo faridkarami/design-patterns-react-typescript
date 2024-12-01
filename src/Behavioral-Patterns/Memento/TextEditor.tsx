@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
-import Editor from './pattern/classes/editor.class';
-import Caretaker from './pattern/classes/caretaker.class';
+import Editor from './pattern/editor.class';
+import Caretaker from './pattern/caretaker.class';
 
 const TextEditor: React.FC = () => {
   const [editorState, setEditorState] = useState<string>('');
