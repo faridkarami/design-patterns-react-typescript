@@ -14,8 +14,9 @@
 // import CommandDesignPattern from './Behavioral-Patterns/Command'
 // import IteratorDesignPattern from './Behavioral-Patterns/Iterator'
 // import MediatorDesignPattern from './Behavioral-Patterns/Mediator'
+// import MementoDesignPattern from "./Behavioral-Patterns/Memento"
 
-import MementoDesignPattern from "./Behavioral-Patterns/Memento"
+import ObserverDesignPattern from "./Behavioral-Patterns/Observer"
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
         {/* <CommandDesignPattern /> */}
         {/* <IteratorDesignPattern /> */}
         {/* <MediatorDesignPattern /> */}
-        <MementoDesignPattern />
+        {/* <MementoDesignPattern /> */}
+        <ObserverDesignPattern />
       </main>
     </>
   )
