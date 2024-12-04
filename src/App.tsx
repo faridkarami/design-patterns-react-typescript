@@ -16,8 +16,8 @@
 // import MediatorDesignPattern from './Behavioral-Patterns/Mediator'
 // import MementoDesignPattern from "./Behavioral-Patterns/Memento"
 // import ObserverDesignPattern from "./Behavioral-Patterns/Observer"
-
-import StateDesignPattern from "./Behavioral-Patterns/State"
+// import StateDesignPattern from "./Behavioral-Patterns/State"
+import StrategyDesignPattern from './Behavioral-Patterns/Strategy';
 
 function App() {
   return (
@@ -42,10 +42,11 @@ function App() {
         {/* <MediatorDesignPattern /> */}
         {/* <MementoDesignPattern /> */}
         {/* <ObserverDesignPattern /> */}
-        <StateDesignPattern />
+        {/* <StateDesignPattern /> */}
+        <StrategyDesignPattern />
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
