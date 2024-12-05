@@ -17,7 +17,8 @@
 // import MementoDesignPattern from "./Behavioral-Patterns/Memento"
 // import ObserverDesignPattern from "./Behavioral-Patterns/Observer"
 // import StateDesignPattern from "./Behavioral-Patterns/State"
-import StrategyDesignPattern from './Behavioral-Patterns/Strategy';
+// import StrategyDesignPattern from './Behavioral-Patterns/Strategy';
+import TemplateMethodDesignPattern from './Behavioral-Patterns/Template-Method';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
         {/* <MementoDesignPattern /> */}
         {/* <ObserverDesignPattern /> */}
         {/* <StateDesignPattern /> */}
-        <StrategyDesignPattern />
+        {/* <StrategyDesignPattern /> */}
+        <TemplateMethodDesignPattern />
       </main>
     </>
   );
