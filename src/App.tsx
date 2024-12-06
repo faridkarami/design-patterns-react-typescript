@@ -14,11 +14,12 @@
 // import CommandDesignPattern from './Behavioral-Patterns/Command'
 // import IteratorDesignPattern from './Behavioral-Patterns/Iterator'
 // import MediatorDesignPattern from './Behavioral-Patterns/Mediator'
-// import MementoDesignPattern from "./Behavioral-Patterns/Memento"
-// import ObserverDesignPattern from "./Behavioral-Patterns/Observer"
-// import StateDesignPattern from "./Behavioral-Patterns/State"
+// import MementoDesignPattern from './Behavioral-Patterns/Memento'
+// import ObserverDesignPattern from './Behavioral-Patterns/Observer'
+// import StateDesignPattern from './Behavioral-Patterns/State'
 // import StrategyDesignPattern from './Behavioral-Patterns/Strategy';
-import TemplateMethodDesignPattern from './Behavioral-Patterns/Template-Method';
+// import TemplateMethodDesignPattern from './Behavioral-Patterns/Template-Method';
+import VisitorDesignPattern from './Behavioral-Patterns/Visitor';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
         {/* <ObserverDesignPattern /> */}
         {/* <StateDesignPattern /> */}
         {/* <StrategyDesignPattern /> */}
-        <TemplateMethodDesignPattern />
+        {/* <TemplateMethodDesignPattern /> */}
+        <VisitorDesignPattern />
       </main>
     </>
   );
